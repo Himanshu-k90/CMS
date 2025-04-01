@@ -1,0 +1,28 @@
+@import "@cmsgov/design-system/css/index";
+@import "@cmsgov/design-system/css/core-theme";
+
+.h-dvh {
+  height: 100dvh;
+}
+
+ul {
+  list-style: none;
+}
+
+.input-field-height {
+  min-height: 40px;
+  height: 45px;
+  width: 100%;
+  padding: 2px 4px;
+  border: 1px solid gray;
+
+  &:focus {
+    outline: 0;
+    border: 1px solid gray;
+  }
+
+  &:focus-within {
+    outline: 0;
+    border: 1px solid gray;
+  }
+}
